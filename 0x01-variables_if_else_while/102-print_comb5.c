@@ -26,12 +26,13 @@ int main(void)
 					putchar(c);
 					putchar(d);
 
-					if (!((a == 57 && b == 56) && (c == 57 && d == 57 )))
+					if (!((a == 57 && b == 56) && (c == 57 && d == 57)))
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
+				d = 48;
 			}
 		}
 	}
