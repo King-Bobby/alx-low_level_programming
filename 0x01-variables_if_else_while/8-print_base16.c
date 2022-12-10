@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(i);
 	}
-	for (i = 0; i < 7; i++)
+	for (i = 1; i < 6; i++)
 	{
 		putchar(alpha[i]);
 	}
