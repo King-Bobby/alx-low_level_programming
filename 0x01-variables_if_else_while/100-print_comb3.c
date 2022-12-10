@@ -7,30 +7,31 @@
  */
 int main(void)
 {
-	int i, e;
+	int a;
+	int b;
 	
-	i = 48;
-	e = 48;
-	
-	while (e < 58)
+	a = 48;
+	b = 48;
+
+	while (a < 58)
 	{
-		i = 48;
-		while (i < 58)
+		b = 48;
+		while (a < 58)
 		{
-			if (e != i && e < i)
+			if (a != b && a < b)
 			{
-				putchar(e);
-				putchar(i);
-				if (i == 57 && e == 56)
+				putchar(a);
+				putchar(b);
+				if (a == 57 && b == 56)
 				{
 					break;
 				}
 				putchar(',');
 				putchar(' ');
 			}
-			i++;
+			a++;
 		}
-		e++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
