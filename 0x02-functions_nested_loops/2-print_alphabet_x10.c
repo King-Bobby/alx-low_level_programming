@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main- Entry point
+ * print_alphabet_x10 - prints the alphabets in 10 lines
  *
  * Return: Always 0(Success)
  */
