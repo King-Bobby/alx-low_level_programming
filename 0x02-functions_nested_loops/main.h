@@ -1,1 +1,1 @@
-void print_alphabet(void);
+#define print_alphabet
