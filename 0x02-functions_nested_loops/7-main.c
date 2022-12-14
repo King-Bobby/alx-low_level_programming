@@ -13,5 +13,6 @@ int main(void)
 	print_last_digit(0);
 	r = print_last_digit(-1024);
 	putchar('0' + r);
+	putchar('\n');
 	return (0);
 }
