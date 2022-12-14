@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times-tables - multiplication table
+ * times_tables - multiplication table
  *
  * times_tables: prints times tables
  *
