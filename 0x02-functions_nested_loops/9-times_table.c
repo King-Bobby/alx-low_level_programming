@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * times_tables - multiplication table
+ * times_table - multiplication tables
  *
- * times_tables: prints times tables
+ * times_table: prints time table
  *
  * Return: nothing
  */
