@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_times_tables -  prints times table
+ * print_times_table -  prints times table
  *
  * @n: integer
  *
@@ -9,18 +9,16 @@
  */
 void print_times_table(int n)
 {
-	int a;
-	int b;
-	int c;
+	int a, b, c;
 
-	if (n >= 0 && n <=15)
+	if (n >= 0 && n <= 15)
 	{
 		for (a = 0; a <= n; a++)
 		{
 			for (b = 0; b <= n; b++)
 			{
 				c = (a * b);
-				if (b ==0)
+				if (b == 0)
 				{
 					putchar('0' + c);
 				}
