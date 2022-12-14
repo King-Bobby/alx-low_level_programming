@@ -1,33 +1,27 @@
 #include "main.h"
 
-/**
- * jack_bauer - movie 24
+/** 
+ * jack_bauer - 24 hours
  *
- * Return: Nothing
+ * Return: nothing
  */
 void jack_bauer(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
+	int h = 0;
+	int m = 0;
 
-	for (a = 48; a < 58; a++)
+	while (h < 24)
 	{
-		for (b = 48; b < 58; b++)
+		while (m < 60)
 		{
-			for (c = 48; c < 58; c++)
-			{
-				for (d = 48; d < 58; d++)
-				{
-					putchar(a);
-					putchar(b);
-					putchar(58);
-					putchar(c);
-					putchar(d);
-					putchar('\n');
-				}
-			}
+			putchar('0' + (h / 10));
+			putchar('0' + (h % 10));
+			putchar(':');
+			putchar('0' + (m / 10));
+			putchar('0' + (m % 10));
+			putchar('\n');
 		}
+		m = 0;
+		h++;
 	}
 }
