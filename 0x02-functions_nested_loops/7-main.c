@@ -1,3 +1,4 @@
+#include <limits.h>
 #include "main.h"
 
 /**
