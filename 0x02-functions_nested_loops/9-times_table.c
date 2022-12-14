@@ -3,7 +3,7 @@
 /**
  * times-tables - multiplication table
  *
- * times-tables: prints times tables
+ * times_tables: prints times tables
  *
  * Return: nothing
  */
