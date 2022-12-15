@@ -2,7 +2,10 @@
 
 /**
  * print_square -  prints a square in terminal
- *
+ * @size: integer value
+ * @i: length
+ * @a: breadth
+ * @c: (#) character
  * Return: Always 0
  */
 void print_square(int size)
