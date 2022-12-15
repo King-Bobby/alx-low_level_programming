@@ -3,10 +3,16 @@
 
 /**
  * print_numbers - prints numbers from 0 - 9
- *
+ * @n: number
  * Return: Always 0
  */
-void print_numbers(void) 
+void print_numbers(void)	
 {
-	printf("0123456789\n");
+	int n;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	putchar('\n');
 }
