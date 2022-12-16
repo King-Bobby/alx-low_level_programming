@@ -3,9 +3,6 @@
 /**
  * print_square -  prints a square in terminal
  * @size: integer value
- * @i: length
- * @a: breadth
- * @c: (#) character
  * Return: Always 0
  */
 
@@ -14,7 +11,7 @@ void print_square(int size)
 	int i;
 	int a;
 	int c = 35;
-	
+
 	if (size > 0)
 	{
 		for (i = 1; i <= size; i++)
