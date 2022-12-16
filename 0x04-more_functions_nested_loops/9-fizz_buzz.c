@@ -2,7 +2,6 @@
 
 /**
  * main - check the code
- * @a: integer
  * Return: Always 0
  */
 int main(void)
