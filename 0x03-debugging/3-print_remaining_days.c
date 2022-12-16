@@ -4,7 +4,7 @@
 /**
  * print_remaining_days - calendar 
  * @month: month in number format
- * @day: day of month
+ * @day: day of month.
  * @year: year
  * Return: void
  */
