@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal - pints a diagonal line
+ * @n: input value
  * Return: Always 0
  */
 void print_diagonal(int n)
