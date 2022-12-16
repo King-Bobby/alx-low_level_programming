@@ -3,8 +3,6 @@
 /**
  * print_line - prints a straight line in terminal
  * @n: number of times _ is printed
- * @i: integer value
- * @a: this is  the _ value
  * Return: Always 0
  */
 void print_line(int n)
