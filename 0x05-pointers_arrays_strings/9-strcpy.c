@@ -5,7 +5,7 @@
  * @dest: destination value
  * @src: source value
  *
- * return: Always 0
+ * Return: Always 0
  */
 char *_strcpy(char *dest, char *src)
 {
