@@ -7,5 +7,16 @@
  */
 void print_number(int n)
 {
-	printf("%d\n", n);
+	unsigned int k;
+	if (n < 0)
+	{
+		putchar('-');
+		n = n * -1;
+	}
+	k = n;
+	if (k / 10)
+	{
+		print_number(k / 10);
+	}
+	putchar(k % 10 + '0');
 }
