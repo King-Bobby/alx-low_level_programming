@@ -9,12 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc == 1)
+	if (argc < 3)
 	{
 		printf("Error\n");
-
 	}
-	if (argc > 1)
+	if (argc == 3)
 	{
 		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
