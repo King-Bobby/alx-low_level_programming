@@ -5,7 +5,7 @@
  * main - check the code
  * @argc: number of command line arguments
  * @argv: array of command line arguments
- * Return: IF no two arguments, return Error, followed by a new line, and return 1
+ * Return: if arg<3 Error, followed by a new line, and return 1
  */
 int main(int argc, char *argv[])
 {
