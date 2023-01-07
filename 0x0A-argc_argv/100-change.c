@@ -17,6 +17,11 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+	if (atoi(argv[1]) <= 0)
+	{
+		printf("0\n");
+		return (1);
+	}
 	c = atoi(argv[1]);
 	n += c / 25;
 	c = c % 25;
