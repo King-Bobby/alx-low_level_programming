@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	n += c / 2;
 	c = c % 2;
 	n += c / 1;
-		
+	
 	printf("%d\n", n);
 	return (0);
 }
