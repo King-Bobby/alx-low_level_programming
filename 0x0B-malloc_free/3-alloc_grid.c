@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alloc_grind - returns a pointer to a 2 dimensional array of integers
+ * alloc_grid - returns a pointer to a 2 dimensional array of integers
  * @width: width of the array
  * @height: height of the array
  * Return: NULL on failure
@@ -10,12 +10,12 @@ int **alloc_grid(int width, int height)
 {
 	int a, b;
 	int **grid;
-	
+
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
-	grid = malloc(sizeof(int) * height);
+	grid = malloc(sizeof(int *) * height);
 	if (grid == NULL)
 	{
 		return (NULL);
