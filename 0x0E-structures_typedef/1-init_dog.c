@@ -3,7 +3,7 @@
 
 /**
  * init_dog - check the code
- * @d: pointer 
+ * @d: pointer
  * @name: name of the dog
  * @age: age of the dog
  * @owner: dog's owner
