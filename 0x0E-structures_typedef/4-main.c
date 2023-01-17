@@ -2,11 +2,15 @@
 #include "dog.h"
 
 /**
- * new_dog - a function that creates a new dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
+ * main - check the code
+ *
+ * Return: Always 0
  */
-dog_t *new_dog(char *name, float age, char *owner)
+int main(void)
 {
+	dog_t *my_dog;
 
+	my_dog = new_dog("Poppy", 3.5, "Bob");
+	printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
+	return (0);
+}
