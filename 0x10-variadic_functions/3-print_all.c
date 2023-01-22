@@ -34,6 +34,7 @@ void print_float(va_list flooat)
 void print_charstr(va_list strring)
 {
 	char *str;
+
 	str = va_arg(strring, char *);
 
 	if (str == NULL)
@@ -51,9 +52,8 @@ void print_charstr(va_list strring)
 void print_all(const char * const format, ...)
 {
 	va_list list;
-	char * separator = "";
+	char *separator = "";
 	int a, b = 0;
-	
 	datatype options[] = {
 		{'c', print_char},
 		{'i', print_int},
@@ -61,6 +61,7 @@ void print_all(const char * const format, ...)
 		{'s', print_charstr},
 		{'\0', NULL}
 	};
+
 	va_start(list, format);
 	while (format != NULL && format[b] != '\0')
 	{
