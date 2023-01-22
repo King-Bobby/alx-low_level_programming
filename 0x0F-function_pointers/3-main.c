@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int (*solv)(int, int);
 	int i = atoi(argv[1]);
 	int j = atoi(argv[3]);
-	
+
 	if (argc != 4)
 	{
 		printf("Error\n");
