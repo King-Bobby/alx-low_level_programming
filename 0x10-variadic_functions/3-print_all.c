@@ -39,7 +39,7 @@ void print_charstr(va_list strring)
 
 	if (str == NULL)
 	{
-		printf("nil");
+		printf("(nil)");
 		return;
 	}
 	printf("%s", str);
