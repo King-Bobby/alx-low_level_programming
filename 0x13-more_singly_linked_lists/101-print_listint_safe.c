@@ -7,7 +7,8 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	const listint_t *temp1, *temp2;
+	const listint_t *temp1;
+	const listint_t *temp2;
 	int i = 0, count;
 
 	if (head == NULL)
