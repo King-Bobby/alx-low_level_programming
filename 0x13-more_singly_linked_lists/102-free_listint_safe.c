@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free-listint_safe - frees a listint_t list
+ * free_listint_safe - frees a listint_t list
  * @h: head of the list
  * Return: the size of the list that was free'd
  */
@@ -12,7 +12,7 @@ size_t free_listint_safe(listint_t **h)
 
 	if (h == NULL)
 		return (0);
-	
+
 	temp = *h;
 	while (temp != NULL)
 	{
