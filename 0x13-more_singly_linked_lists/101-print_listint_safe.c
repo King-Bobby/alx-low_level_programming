@@ -10,8 +10,8 @@ size_t print_listint_safe(const listint_t *head)
 	const listint_t *temp1, *temp2;
 	int i = 0, count;
 
-	if (head == NULL)
-		exit(98);
+	/*if (head == NULL)
+		exit(98);*/
 
 	temp1 = head;
 	while (temp1 != NULL)
@@ -31,6 +31,8 @@ size_t print_listint_safe(const listint_t *head)
 			temp2 = temp2->next;
 			count++;
 		}
+		if (head == NULL)
+			exit(98);
 	}
 	return (i);
 }
