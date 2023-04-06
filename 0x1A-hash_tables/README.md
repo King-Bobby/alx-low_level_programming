@@ -5,3 +5,5 @@ Ubuntu 202.04,
 Betty style, documentation
 
 All functions prototypes are stored in hash_tables.h
+
+All main.c files are test files
