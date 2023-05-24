@@ -1,0 +1,24 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+#makes executable file
+all: $(OBJ) m.h
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+
+#deletes all temporary files along with the executable
+clean:
+	$(RM) *~ $(NAME)
+
+#deletes the object files
+oclean:
+	$(RM) $(OBJ)
+
+#deletes all temporary files, the executable, and the object files
+fclean: clean oclean
+
+#Deletes all sources files and forces recompilation
+re: oclean all
