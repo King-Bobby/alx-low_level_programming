@@ -1,0 +1,26 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+CFLAGS = -Wall -Werror -Wextra -pedantic
+
+#It is a standard rule that says all the rules listed are not filenames
+.PHONY: all clean oclean fclean re
+
+#makes executable file
+all: $(OBJ) m.h
+	$(CC) $(OBJ) -o $(NAME)
+
+#deletes all temporary files along with the executable
+clean:
+	$(RM) *~ $(NAME)
+
+#deletes the object files
+oclean:
+	$(RM) $(OBJ)
+
+#deletes all temporary files, the executable, and the object files
+fclean: clean oclean
+
+#Deletes all sources files and forces recompilation
+re: oclean all
