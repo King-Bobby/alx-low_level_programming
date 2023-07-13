@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * jump_search - performs jum search algorithm on an array
+ * jump_search - performs jump search algorithm on an array
  * @array: a pointer to the first element of the array
  * @size: number of elements in the array
  * @value: value to search for
@@ -11,7 +11,7 @@ int jump_search(int *array, size_t size, int value)
 {
 	size_t i, j, prev = 0;
 	double square_root = sqrt(size);
-	size_t step = round(square_root);
+	size_t step = (size_t)square_root;
 
 	if (array == NULL)
 		return (-1);
