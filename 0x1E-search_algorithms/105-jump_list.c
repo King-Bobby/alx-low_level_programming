@@ -23,7 +23,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 		size_t i;
 
 		prev = current;
-		for (i = 0; i < step && current->next != NULL; i++)
+		for (i = 0; i <= step && current->next != NULL; i++)
 			current = current->next;
 		printf("Value checked at index [%lu] = [%d]\n", current->index, current->n);
 	}
